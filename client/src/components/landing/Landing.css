@@ -1,0 +1,164 @@
+header {
+    height: 100vh;
+    padding-top: 1rem;
+    overflow: hidden;
+  
+    background-image: url("../../assets/bg_landing.jpg");
+    background-size: cover;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  .header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+  }
+  
+  /* CTA */
+  .cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+  
+  .btn__cta {
+    position: absolute;
+    left: 75%;
+    margin-top: 25%;
+  }
+  
+  /* Pokedex */
+  .image__pokedex {
+    width: 110%;
+  }
+  .container__poke {
+    position: absolute;
+    left: auto;
+    margin-top: 5%;
+  }
+  
+  /* team pokedex */
+  .container__team {
+    position: absolute;
+    background-color: black;
+    width: 185px;
+    height: 120px;
+    border-radius: 15px;
+    margin-top: -295px;
+    margin-left: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img__poke {
+    width: 100px;
+  }
+  
+  /* Logo  */
+  .logo {
+    position: absolute;
+    width: 40%;
+    left: 58%;
+    margin-top: 10%;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .logo {
+      width: 35%;
+      left: 65%;
+      margin-top: 15%;
+    }
+    .image__pokedex {
+      width: 80%;
+    }
+    .container__poke {
+      margin-top: 10%;
+    }
+    .container__team {
+      width: 145px;
+      height: 95px;
+      border-radius: 15px;
+      margin-top: -235px;
+      margin-left: 52px;
+    }
+    .img__poke {
+      width: 90px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .logo {
+      width: 40%;
+      left: 65%;
+      margin-top: 20%;
+    }
+    .image__pokedex {
+      width: 70%;
+    }
+    .container__poke {
+      margin-top: 20%;
+    }
+    .container__team {
+      width: 129px;
+      height: 85px;
+      border-radius: 15px;
+      margin-top: -207px;
+      margin-left: 46px;
+    }
+    .img__poke {
+      width: 80px;
+    }
+    .btn__cta {
+      position: absolute;
+      left: 75%;
+      margin-top: 40%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .logo {
+      width: 70%;
+      left: 15%;
+      margin-top: 20%;
+    }
+    .container__poke {
+      display: none;
+    }
+    .container__team {
+      display: none;
+    }
+    .img__poke {
+      display: none;
+    }
+    .btn__cta {
+      position: absolute;
+      left: 40%;
+      margin-top: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .logo {
+      width: 70%;
+      left: 15%;
+      margin-top: -35%;
+    }
+    .container__poke {
+      display: none;
+    }
+    .container__team {
+      display: none;
+    }
+    .img__poke {
+      display: none;
+    }
+    .btn__cta {
+      position: relative;
+      left: auto;
+      margin-top: 80%;
+    }
+  }
+  
